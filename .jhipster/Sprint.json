@@ -1,0 +1,34 @@
+{
+  "applications": "*",
+  "changelogDate": "20240921124356",
+  "dto": "mapstruct",
+  "entityTableName": "sprint",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "SprintStatus",
+      "fieldValues": "ACTIVE,COMPLETE,UNCOMPLETE"
+    },
+    {
+      "fieldName": "goal",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Sprint",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

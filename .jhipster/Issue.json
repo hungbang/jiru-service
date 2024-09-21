@@ -1,0 +1,98 @@
+{
+  "applications": "*",
+  "changelogDate": "20240921124358",
+  "dto": "mapstruct",
+  "entityTableName": "issue",
+  "fields": [
+    {
+      "fieldName": "summary",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "label",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "dueDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "estimateHour",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "estimateDay",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "storyPoint",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "assignee",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "assigneeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "blocker",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pullRequest",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "weekNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "sprintTitle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sprintId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "priotiry",
+      "fieldType": "Priority",
+      "fieldValues": "CRITICAL,MAJOR,MINOR,TRIVIAL,NONE"
+    },
+    {
+      "fieldName": "releaseTitle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "releaseId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "projectName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "projectId",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "Issue",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

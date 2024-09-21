@@ -1,0 +1,46 @@
+{
+  "applications": "*",
+  "changelogDate": "20240921124359",
+  "dto": "mapstruct",
+  "entityTableName": "release",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "ReleaseStatus",
+      "fieldValues": "READY_FOR_RELEASE,RELEASED,UNRELEASED,OVERDUE"
+    },
+    {
+      "fieldName": "note",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "projectName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "projectId",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "Release",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
